@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../static/js/geolocate.js"></script>
+<title>Autocomplete address</title>
+</head>
+<body>
+<p>Hi there</p>
+<div id="locationField">
+    <p>Autocomplete input:</p><br>
+  <input id="autocomplete"
+         placeholder="Enter your address"
+         onchange="myFunction()"
+         type="text"/>
+</div>
+<div id="result" style="color:red"></div>
+
+<div id="locationField2">
+    <p>Search input:</p><br>
+  <input id="searchplace"
+         placeholder="Enter your address"
+         onchange="searchFunction()"
+         type="text"/>
+</div>
+<div id="result2" style="color:red"></div>
+</body>
+</html>
